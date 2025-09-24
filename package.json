@@ -1,0 +1,66 @@
+{
+  "name": "zv5-cerebellum",
+  "version": "1.0.0",
+  "description": "Zero Vector 5 Cerebellum - Memory & Persona API Server",
+  "type": "module",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "node --import tsx src/server.ts",
+    "dev:nodemon": "nodemon --exec node --import tsx src/server.ts",
+    "build": "vite build",
+    "start": "node dist/server.js",
+    "test": "vitest",
+    "test:coverage": "vitest --coverage",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint src --ext .ts",
+    "lint:fix": "eslint src --ext .ts --fix",
+    "db:migrate": "node scripts/migrate.js",
+    "db:seed": "node scripts/seed.js",
+    "generate:key": "node scripts/generateApiKey.js"
+  },
+  "keywords": [
+    "ai",
+    "memory",
+    "persona",
+    "cognitive",
+    "consciousness",
+    "vector",
+    "embeddings"
+  ],
+  "author": "ZV5 Development Team",
+  "license": "MIT",
+  "dependencies": {
+    "@xenova/transformers": "^2.0.0",
+    "bcryptjs": "^2.4.0",
+    "cors": "^2.8.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.0",
+    "helmet": "^7.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "node-cron": "^3.0.0",
+    "sqlite3": "^5.1.0",
+    "uuid": "^9.0.0",
+    "ws": "^8.0.0",
+    "zod": "^3.21.0"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^4.17.17",
+    "@types/jsonwebtoken": "^9.0.2",
+    "@types/node": "^20.4.5",
+    "@types/uuid": "^9.0.2",
+    "@types/ws": "^8.5.5",
+    "@typescript-eslint/eslint-plugin": "^6.2.0",
+    "@typescript-eslint/parser": "^6.2.0",
+    "eslint": "^8.45.0",
+    "nodemon": "^3.0.1",
+    "tsx": "^4.20.5",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vitest": "^0.34.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
