@@ -229,5 +229,26 @@ class CerebellumClient {
 **Vector Search**: ⚠️ Limited (embeddings loading issue)  
 
 ---
+## 📚 Citation
+
+### Academic Citation
+
+If you use this codebase in your research or project, please cite:
+
+```bibtex
+@software{zerovector5_cerebellum,
+  title = {Zero Vector 5 Cerebellum: cognitive AI memory and persona},
+  author = {[Drift Johnson]},
+  year = {2025},
+  url = {https://github.com/MushroomFleet/zerovector5-cerebellum},
+  version = {1.0.0}
+}
+```
+
+### Donate:
+
+
+[![Ko-Fi](https://cdn.ko-fi.com/cdn/kofi3.png?v=3)](https://ko-fi.com/driftjohnson)
 
 **ZV5-Cerebellum is ready for production use as a cognitive AI memory and persona backend!** 🧠✨
+
